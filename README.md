@@ -1,7 +1,29 @@
-# Traffic signs detection and classification in real time
+# AutoVision
+## Traffic signs detection and recognition
 
-### A new version using SSD will be released this summer for anyone need higher accuracy detection method. Stay tuned for new update!
+This project is a Traffic Sign Recognition Tool built using Convolutional Neural Networks (CNN) with Keras for the model, OpenCV for image processing, and Tkinter for the graphical user interface (GUI).
 
+## Features
+
+- Recognizes various traffic signs from images.
+- User-friendly GUI for image upload and prediction display.
+- Pre-trained model provided for quick setup and usage.
+
+## Tech Stack
+
+- **Programming Language**: Python
+- **Libraries and Frameworks**:
+  - **Keras**: For building and training the CNN model.
+  - **TensorFlow**: Backend for Keras.
+  - **OpenCV**: For image processing tasks.
+  - **NumPy**: For numerical operations.
+  - **scikit-learn**: For additional machine learning utilities.
+  - **Matplotlib**: For visualizing data and model performance.
+  - **Pillow**: For handling image files.
+  - **Tkinter**: For creating the GUI.
+- **Dataset**: [German Traffic Sign Recognition Benchmark (GTSRB)](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+
+  
 ### 1. Description ###
 This project is a traffic signs detection and classification system on videos using OpenCV.
 The detection phase uses Image Processing techniques that create contours on each video frame and find all ellipses or circles among those contours. They are marked as candidates for traffic signs.
