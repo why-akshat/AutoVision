@@ -1,7 +1,5 @@
-# Traffic_Sign_Recongnition
-
-Project Title:
-Traffic Sign Classification with Deep Learning
+# AutoVision 
+## Traffic Sign Detection and Recongnition
 
 Description:
 Welcome to the Traffic Sign Classification project! This repository contains the code and resources for a deep learning model that can classify various traffic signs with high accuracy. Whether you're interested in computer vision, machine learning, or road safety, this project offers valuable insights and practical applications.
